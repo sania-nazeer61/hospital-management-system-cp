@@ -1,0 +1,16 @@
+Memory Management Report
+
+I confirm that for every object created using "new",
+I have used "delete" to free the memory.
+
+Classes Using Dynamic Memory:
+1. Patient class - Line 45 (new), Line 89 (delete)
+2. Doctor class - Line 112 (new), Line 156 (delete)
+3. Appointment class - Line 203 (new), Line 247 (delete)
+4. MedicalRecord class - Line 300 (new), Line 345 (delete)
+5. Bill class - Line 400 (new), Line 445 (delete)
+6. Department class - Line 500 (new), Line 545 (delete)
+
+No memory leaks detected during testing.
+Signed: Sania Nazeer
+Date: 20-Feb-2026
